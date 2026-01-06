@@ -31,7 +31,9 @@ if(NOT ${DEP_NAME}_FOUND OR LIBOTE_DEV)
                        -DENABLE_CIRCUITS=ON
                        -DENABLE_MRR=ON
                        -DENABLE_IKNP=ON
+                       -DENABLE_KKRT=ON
                        -DENABLE_SOFTSPOKEN_OT=ON
+                       -DENABLE_SILENTOT=ON
                        -DENABLE_BITPOLYMUL=${VOLE_PSI_ENABLE_BITPOLYMUL}
                        -DENABLE_SILENTOT=ON
                        -DENABLE_SILENT_VOLE=ON
